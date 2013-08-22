@@ -1,0 +1,9 @@
+p There are {{workouts.length}} workouts
+div(ng-repeat='workout in workouts')
+  h3 {{workout.title}}
+  div {{workout.type}}
+  a(href='/readWorkout/{{workout._id}}') More
+  |  - 
+  a(href='/editWorkout/{{workout._id}}') Edit
+  |  - 
+  a(href='/deleteWorkout/{{workout._id}}') Delete

@@ -1,0 +1,12 @@
+{
+	"name": "wine-cellar",
+	"description": "Wine Cellar Application",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.x",
+		"express-resource": "1.x",
+        "mongoose": "latest",
+        "jade": ">= 0.0.1"
+	}
+}
